@@ -147,7 +147,6 @@
 
     <div>
         <main class="d-flex flex-nowrap position-fixed">
-            <!-- d-flex flex-nowrap -->
             <h1 class="visually-hidden">Sidebars examples</h1>
 
 
@@ -155,7 +154,7 @@
             <!-- <div class="b-example-divider b-example-vr"></div> -->
 
             <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 200px">
-                <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
                     <svg class="bi pe-none me-2" width="40" height="32">
                         <use xlink:href="#bootstrap" />
                     </svg>
@@ -184,7 +183,7 @@
                             <svg class="bi pe-none me-2" width="16" height="16">
                                 <use xlink:href="#table" />
                             </svg>
-                            Calibrated Instruments
+                            Calibrated Instrument
                         </a>
                     </li>
                     <li>
@@ -223,14 +222,14 @@
             </div>
 
             <div class="b-example-divider b-example-vr"></div>
-            
+
 
 
         </main>
 
         <div style="margin-left:350px">
-        <?php
-            include '../instrument_setup.php';
+            <?php
+            include '../calibrated_instrument.php';
             ?>
         </div>
     </div>

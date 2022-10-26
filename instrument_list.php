@@ -36,7 +36,7 @@ if (isset($_GET['delid'])) {
 
 </head>
 
-<body>
+<body p-3 m-0 border-0>
     <div class="table-title container">
         <div class="row">
             <div class="col-sm-5">
@@ -155,6 +155,8 @@ if (isset($_GET['delid'])) {
         $('#userTable').DataTable();
     });
     </script>
+
+    
 </body>
 
 </html>

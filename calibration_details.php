@@ -70,6 +70,7 @@ if (isset($_GET['delid'])) {
                             while ($row = mysqli_fetch_array($ret)) {
 
                         ?>
+                        
                         <!--Fetch the Records -->
                         <tr>
                             <td><?php echo $cnt; ?></td>
